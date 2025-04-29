@@ -40,4 +40,9 @@ pip install unsloth
   def load_real_gsm8k(split="train") -> Dataset:
       return load_dataset('openai/gsm8k', 'main')[split]
   ```
-
+### 📚 Guide to this Repo
+1. CoT (1).ipynb - contains the accuracy test on GSM8K Data (Test sample: 1319 examples) using simple CoT style prompting.
+2. ToT Accuracy.pdf - contains the accuracy test on GSM8K Data (Test sample: 1319 examples) using ToT style prompting. We had an error saving the results and needed to upload pdf to include the outputs.
+3. ToT.ipynb - the notebook and accuracy test ran on 10 examples from GSM8k test.
+4. grpo-on-synthetic-data.ipynb - contains the test of accuracy on synthetic vs real data.
+5. Unsloth training_Qwen2_5_(3B)_GRPO.ipynb - training the reasoning model using GSM8K, QWEN2.5 (3B parameters), and GRPO to save the parameters "grpo_saved_lora" used in other notebooks.
