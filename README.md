@@ -4,7 +4,7 @@
 ### 📚 Installing Dependencies 
 In this project we will be using unsloth, a library for finetuning LLMs with limited memory! 
 - Install with pip (recommended) for Linux devices:
-```
+```bash
 pip install unsloth
 ```
 - Install with pip for Kaggle Notebook Users (option available for Mac)
